@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="amaz.Aamzone">
+      <class name="test.messhopageimp">
         <methods>
-          <include name="amazones"/>
-          <include name="amzurl"/>
-          <include name="setups"/>
+          <include name="running"/>
+          <include name="setup"/>
+          <include name="meeshologins"/>
         </methods>
-      </class> <!-- amaz.Aamzone -->
+      </class> <!-- test.messhopageimp -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
